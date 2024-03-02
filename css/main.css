@@ -475,3 +475,110 @@ input[type=search]:focus {
 .btn-filter:hover{
   background-image: url('../img/icons/filter-white.svg');
 }
+.dashboard-items{
+  
+  border: 2px solid #c9cbce9f;
+  border-radius: 7px;
+  color: var(--primarycolor);
+}
+
+
+.h1-dashboard{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 0;
+  padding-top: 20px;
+}
+
+.h3-dashboard{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #212529e3;
+}
+
+.dashboard-icons{
+  background-color: rgba(184, 184, 184, 0.247);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 7px;
+  margin-left: 40px;
+  margin-right: 0px;
+  
+}
+.dashboard-icons-setting{
+  background-color: rgba(184, 184, 184, 0.247);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-right: 20px;
+  
+}
+
+.setting-tabs:hover{
+  background-color: #d6d6d657;
+}
+
+
+.doctor-header{
+  background-image: url(../img/b8.jpg);
+  color: rgba(0, 0, 0, 0.87);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-left: 35px;
+}
+
+.patient-header{
+  background-image: url(../img/b3.jpg);
+}
+
+.search-items{
+  padding:20px;
+  margin:10px;
+  width:95%;
+  display: flex;
+  padding-left:0;
+  padding-left: 30px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  box-shadow: 0 3px 5px 0 rgba(95, 95, 97, 0.068);
+}
+
+
+.h1-search{
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.h3-search{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #212529e3;
+  
+}
+
+.h4-search{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: #212529e3;
+}
+
+.btn-book{
+  background-image: url('../img/icons/book-balck.svg');
+  background-position: 68% 50%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
