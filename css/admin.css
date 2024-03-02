@@ -47,10 +47,39 @@
 
 .profile-container{
     border-bottom: 1.5px solid rgb(235, 235, 235);
-    /*border-radius: 6px;*/
     padding-top: 18%;
     padding-bottom: 12%;
-    /*box-shadow: 0 0 3px rgba(52,58,64,0.08);*/
     text-align: center;
+    
+}
+.heading-main12{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.heading-sub12{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.header-search{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.header-searchbar{
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.705);
+    border: 0.5px solid rgba(190, 190, 190, 0.884);
+    
+    
+}
+
+.add-doc-form-container{
+    padding: 25px;
+    margin-top: 30px;
     
 }
