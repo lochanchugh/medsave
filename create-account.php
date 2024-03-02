@@ -59,7 +59,7 @@ if($_POST){
         if($result->num_rows==1){
             $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">Already have an account for this Email address.</label>';
         }else{
-            
+            //TODO
             $database->query("insert into patient(pemail,pname,ppassword, paddress, pnic,pdob,ptel) values('$email','$name','$newpassword','$address','$nic','$dob','$tele');");
             $database->query("insert into webuser values('$email','p')");
 
@@ -85,7 +85,9 @@ if($_POST){
 }
 
 ?>
-<center>
+
+
+    <center>
     <div class="container">
         <table border="0" style="width: 69%;">
             <tr>
