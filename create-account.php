@@ -85,5 +85,89 @@ if($_POST){
 }
 
 ?>
+<center>
+    <div class="container">
+        <table border="0" style="width: 69%;">
+            <tr>
+                <td colspan="2">
+                    <p class="header-text">Let's Get Started</p>
+                    <p class="sub-text">It's Okey, Now Create User Account.</p>
+                </td>
+            </tr>
+            <tr>
+                <form action="" method="POST" >
+                <td class="label-td" colspan="2">
+                    <label for="newemail" class="form-label">Email: </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <input type="email" name="newemail" class="input-text" placeholder="Email Address" required>
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <label for="tele" class="form-label">Mobile Number: </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <input type="tel" name="tele" class="input-text"  placeholder="ex: 0712345678" pattern="[0]{1}[0-9]{9}" >
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <label for="newpassword" class="form-label">Create New Password: </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <input type="password" name="newpassword" class="input-text" placeholder="New Password" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <label for="cpassword" class="form-label">Conform Password: </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="label-td" colspan="2">
+                    <input type="password" name="cpassword" class="input-text" placeholder="Conform Password" required>
+                </td>
+            </tr>
+     
+            <tr>
+                
+                <td colspan="2">
+                    <?php echo $error ?>
+
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="reset" value="Reset" class="login-btn btn-primary-soft btn" >
+                </td>
+                <td>
+                    <input type="submit" value="Sign Up" class="login-btn btn-primary btn">
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <br>
+                    <label for="" class="sub-text" style="font-weight: 280;">Already have an account&#63; </label>
+                    <a href="login.php" class="hover-link1 non-style-link">Login</a>
+                    <br><br><br>
+                </td>
+            </tr>
+
+                    </form>
+            </tr>
+        </table>
+
+    </div>
+</center>
 </body>
 </html>
