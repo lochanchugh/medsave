@@ -108,7 +108,12 @@
     }
 
     ?>
-<center>
+
+
+
+
+
+    <center>
     <div class="container">
         <table border="0" style="margin: 0;padding: 0;width: 60%;">
             <tr>
@@ -174,5 +179,6 @@
         </table>
 
     </div>
+</center>
 </body>
 </html>
