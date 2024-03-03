@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=comfortaa">
+<style>
+.container {
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.header {
+  padding: 140px;
+ 
+}
+
+.open-nav {
+  cursor: pointer;
+}
+
+.navbar-bottom {
+  height: 180px;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: -132px;
+  width: 100%;
+  transition: all .5s;
+}
+
+.opened {
+  bottom: 0;
+}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body background="bg.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  
+
+<div class="header">
+    <p><font size="6" style="font-family: comfortaa, sans-serif; color: #FFFFFF;">I am not</font><br/><font style="font-family: comfortaa, sans-serif; font-size: 12vw; color: #336699">OKAY</font>
+    
+    <br/><br/><br/><br/>
+    <a href="https://ruok.epizy.com/pycheck/">
+    <img align="right" style="margin: 0px 150px 0px 10px;" src="https://dabuttonfactory.com/button.png?t=Physically&f=Bellota-Bold&ts=30&tc=fff&hp=45&vp=20&w=180&h=50&c=50&bgt=unicolored&bgc=c0c0c0&bs=2&bc=369"/></a>&nbsp;&nbsp;&nbsp;
+    <a href="MentalHealthForm.php">
+    <img align="right" src="https://dabuttonfactory.com/button.png?t=Mentally&f=Bellota-Bold&ts=30&tc=fff&hp=45&vp=20&w=180&h=50&c=50&bgt=unicolored&bgc=336699&bs=2&bc=369"/>&nbsp;&nbsp;</p></a>
+    </div>
+    <nav class="navbar-bottom">
+    <div class="open-nav">
+      <center>
+<span style='font-size:30px;'>&and;</span></center>
+      <br/><br/>
+    </div>
+    <div class="nav-content">
+      <div class="scrollmenu">
+          <a href="/">Home</a>
+  <a href="check.html">Health Check</a>
+  <a href="hotspots.html">Hotspots</a>
+  <a href="hospitals.html">Hospitals</a>
+  <a href="consult.html">Consult</a>
+  <a href="travel.html">Travel</a>
+  <a href="stats.html">Stats</a>
+  
+</div>
+    </div>
+  </nav>
+  
+<script>
+$('.open-nav').click(function() {
+  $('.navbar-bottom').toggleClass("opened");
+});
+</script>
+
+</body>
+</html>
