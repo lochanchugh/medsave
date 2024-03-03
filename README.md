@@ -18,7 +18,7 @@ Install XAMPP: Download and install XAMPP, which provides an environment for run
 Clone the Repository: Clone the MedSave GitHub repository to your local machine using the following command:
 bash
 Copy code
-git clone https://github.com/yourusername/medsave.git
+git clone https://github.com/lochanchugh/medsave.git
 Database Configuration:
 Import the database file included in the repository into your MySQL database.
 Update the database connection details in the configuration file (config.php) to match your local database settings.
