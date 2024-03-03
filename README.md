@@ -23,7 +23,7 @@ Database Configuration:
 Import the database file included in the repository into your MySQL database.
 Update the database connection details in the configuration file (config.php) to match your local database settings.
 
-Database is provided in db folder. The credentials are the following:
+Database is provided in db folder, create a database called edoc and import the db file. The credentials are the following:
 Doctor email: doctor@medsave.com password: 123
 Patient email: patient@medsave.com password: 123
 
