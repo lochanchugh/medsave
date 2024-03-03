@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #C0C0C0;
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: #336699;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 15px;
+}
+
+</style>
+</head>
+<body>
+<center>
+<div class="wrapper">
+<h1>Basic Checkup</h1>
+
+<p>Upper Blood presssure:</p>
+<input id="up" type="number" value="90">
+<p>Lower Blood presssure:</p>
+<input id="lo" type="number" value="80">
+<p>Breath per minute:</p>
+<input id="br" type="number" value="12">
+<p>Pulse:</p>
+<input id="pl" type="number" value="60">
+<p>Temperature(F):</p>
+<input id="tp" type="number" value="99">
+
+<br/>
+<br/>
+<img align="center"  src="https://dabuttonfactory.com/button.png?t=Check&f=Bellota-Bold&ts=30&tc=fff&hp=45&vp=20&w=150&h=50&c=50&bgt=unicolored&bgc=c0c0c0&bs=2&bc=369" onclick="myFunction1()" />
+<a href="check.html"><img align="center"  src="https://dabuttonfactory.com/button.png?t=Checkup&f=Bellota-Bold&ts=30&tc=fff&hp=45&vp=20&w=150&h=50&c=50&bgt=unicolored&bgc=c0c0c0&bs=2&bc=369"/></a>
+<p id="demo"></p>
+</div>
+
+</center>
+<br/>
+  
+<script>
+function myFunction1() {
+  let a = document.getElementById("up").value;
+  let b = document.getElementById("lo").value;
+    let c = document.getElementById("br").value;
+      let d = document.getElementById("pl").value;
+        let e = document.getElementById("tp").value;
+  let text;
+  if ((a>85 && a<125) && (b>55 && b<85) && (c>10 && c<20) && (d>55 && d<105) && (e>97 && e<99)) {
+    text = "You look pretty fit today.";
+  } else {
+    text = "You do not look fine today. We suggest having a checkup.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+
+  <a href="/">
+  <span style="font-size:30px;  align: left; color: black;">&#8811;</span></a>
+</body>
+</html> 
