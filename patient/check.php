@@ -126,7 +126,7 @@
                     </td>
                
                     <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-home menu-active menu-icon-home-active" >
+                    <td class="menu-btn menu-icon-home  menu-icon-home-active" >
                         <a href="index.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Home</p></a></div></a>
                     </td>
                 </tr>
@@ -154,22 +154,22 @@
 
                 
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-doctor">
                         <a href="medicine.php" class="non-style-link-menu"><div><p class="menu-text">Medicines</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-home">
                         <a href="ngo.php" class="non-style-link-menu"><div><p class="menu-text">NGOS</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-session">
                         <a href="check.php" class="non-style-link-menu"><div><p class="menu-text">Health Check</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-appoinment">
                         <a href="schemes.php" class="non-style-link-menu"><div><p class="menu-text">Schemes</p></a></div>
                     </td>
                 </tr>
