@@ -95,22 +95,22 @@
 
                 
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-doctor">
                         <a href="medicine.php" class="non-style-link-menu"><div><p class="menu-text">Medicines</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-home">
                         <a href="ngo.php" class="non-style-link-menu"><div><p class="menu-text">NGOS</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-session">
                         <a href="check.php" class="non-style-link-menu"><div><p class="menu-text">Health Check</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-settings">
+                    <td class="menu-btn menu-icon-appoinment">
                         <a href="schemes.php" class="non-style-link-menu"><div><p class="menu-text">Schemes</p></a></div>
                     </td>
                 </tr>
@@ -453,7 +453,8 @@
             </div>
             ';
         }
-        }elseif($action=='edit'){
+        }
+        elseif($action=='edit'){
             $sqlmain= "select * from doctor where docid=?";
             $stmt = $database->prepare($sqlmain);
             $stmt->bind_param("i",$id);
